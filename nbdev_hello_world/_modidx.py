@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://januff.github.io',
                 'git_url': 'https://github.com/januff/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.core': { 'nbdev_hello_world.core.foo': ('init.html#foo', 'nbdev_hello_world/core.py'),
+                                        'nbdev_hello_world.core.say_hello': ('init.html#say_hello', 'nbdev_hello_world/core.py')}}}
